@@ -25,3 +25,6 @@ Dinheiro para um possivel sistema de loja
 ![image](https://user-images.githubusercontent.com/74030829/136121605-7b22f234-34cf-4c3e-96c6-d9e0e495e7b6.png)
 
 _________________________________________________________________________________________________
+
+Review 10/06
+Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
