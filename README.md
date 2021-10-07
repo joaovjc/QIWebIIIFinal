@@ -26,5 +26,8 @@ Dinheiro para um possivel sistema de loja
 
 _________________________________________________________________________________________________
 
-Review 10/06
+Review 06/10
+Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
+_________________________________________________________________________________________________
+Review 07/10
 Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
