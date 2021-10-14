@@ -48,7 +48,9 @@ ________________________________________________________________________________
 ## Quarta Etapa - 14/10/2021
 
 Cores do site:
+
 ![image](https://user-images.githubusercontent.com/74030829/137379661-84e34c85-7a45-4ad0-ba73-3878d738570b.png)
+
 Provavelmente branco e preto, tendo em vista que, a ideia original eram pixelarts de mesas e afins que relembrassem a época medieval, porem, como isso levaria tempo optei pelo mais basico que ficasse "Limpo";
 
 _________________________________________________________________________________________________
