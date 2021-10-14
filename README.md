@@ -42,8 +42,16 @@ ________________________________________________________________________________
 ![uml](https://user-images.githubusercontent.com/74030829/136476752-688c2421-491b-45bb-8d9d-9ba9a78503a5.png)
 
 Lembrete: avaliar o sistema de loja padrao
+
 _________________________________________________________________________________________________
 
+## Quarta Etapa - 14/10/2021
+
+Cores do site:
+![image](https://user-images.githubusercontent.com/74030829/137379182-727009c1-1e0d-4754-8a73-06c1acc7a105.png)
+Provavelmente branco e preto, tendo em vista que, a ideia original eram pixelarts de mesas e afins que relembrassem a época medieval, porem, como isso levaria tempo optei pelo mais basico que ficasse "Limpo";
+
+_________________________________________________________________________________________________
 Review 06/10
 Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
 _________________________________________________________________________________________________
