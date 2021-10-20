@@ -53,6 +53,8 @@ Cores do site:
 
 Provavelmente branco e preto, tendo em vista que, a ideia original eram pixelarts de mesas e afins que relembrassem a época medieval, porem, como isso levaria tempo optei pelo mais basico que ficasse "Limpo";
 
+## Atualização - 20/10/2021
+Adicionado agumas paginas do front
 _________________________________________________________________________________________________
 Review 06/10
 Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
