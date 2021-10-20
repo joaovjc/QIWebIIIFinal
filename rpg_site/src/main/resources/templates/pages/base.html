@@ -1,0 +1,69 @@
+
+
+    
+    <!--Começo da Navbar -->
+    <nav th:fragment="navbarmain" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <!--Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../images/livro.png" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top">
+            </a>
+            <!--Logo Fim-->
+
+            <!-- Botão colapsado -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbarMd"
+                aria-controls="collapsingNavbarMd" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Botão colapsado Fim-->
+
+            <!-- Conteudo Navbar -->
+            <div class="collapse navbar-collapse" id="collapsingNavbarMd">
+
+                <!-- Lista Links Navbar -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="#">Iventário</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ficha
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Magias</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Aliados/Organizações</a></li>
+                            <li><a class="dropdown-item" href="#">Historia do Personagem</a></li>
+                            <li><a class="dropdown-item" href="#">Tesouros</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Skills</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Lista Links Navbar -->
+
+                <!-- Search Navbar -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- Search Navbar Fim-->
+
+            </div>
+            <!-- Conteudo Navbar Fim-->
+
+        </div>
+    </nav>
+    <!--Começo da Navbar Fim-->
+
+
