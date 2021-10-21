@@ -1,5 +1,6 @@
 package br.com.joaovjc.rpg_site.controller;
 
+import java.security.Principal;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,8 @@ public class PersonagemInvetarioController {
 	private ItemRepository repository;
 	
 	@RequestMapping("interfacePlayer")
-	public String interfacePlayer(Model model) {
-		List<Item> itens = repository.findAll();
+	public String interfacePlayer(Model model, Principal pri) {
+		List<Item> itens = repository.findAllByUsername(pri.getName());
 		model.addAttribute("itens", itens);
 		return "interfacePlayer";
 	}

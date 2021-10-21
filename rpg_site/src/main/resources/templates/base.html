@@ -51,7 +51,13 @@
                     </li>
                 </ul>
                 <!-- Lista Links Navbar -->
-
+				<form id="form-login" th:action="@{/logout}" method="post">
+                	<button class="btn btn-outline-success" sec:authorize="!isAuthenticated" href="/login">login</button>
+	                <button onclick="document.querySelector('#form-login').submit" class="btn btn-outline-success" sec:authorize="isAuthenticated" href="#">Logout</button>
+	            </form>    
+				
+				
+				
                 <!-- Search Navbar -->
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
