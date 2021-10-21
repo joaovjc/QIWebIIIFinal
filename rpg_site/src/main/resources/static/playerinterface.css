@@ -1,6 +1,6 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-.dropstart-toggle::after {
+.dropdown-toggle::after {
   content: none;
 }
 #max_tamanho{

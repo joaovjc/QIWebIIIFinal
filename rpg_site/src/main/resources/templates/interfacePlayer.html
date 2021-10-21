@@ -12,78 +12,14 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
-    <link href="../css/player_interface.css" rel="stylesheet">
+    <link type="text/css" href="../playerinterface.css" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!--Começo da Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-
-            <!--Logo -->
-            <a class="navbar-brand" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-activity" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
-                </svg>
-            </a>
-            <!--Logo Fim-->
-
-            <!-- Botão colapsado -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbarMd"
-                aria-controls="collapsingNavbarMd" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Botão colapsado Fim-->
-
-            <!-- Conteudo Navbar -->
-            <div class="collapse navbar-collapse" id="collapsingNavbarMd">
-
-                <!-- Lista Links Navbar -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link " href="#">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link " aria-current="page" href="#">Iventário</a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Ficha
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Magias</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Aliados/Organizações</a></li>
-                            <li><a class="dropdown-item" href="#">Historia do Personagem</a></li>
-                            <li><a class="dropdown-item" href="#">Tesouros</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Skills</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Lista Links Navbar -->
-
-                <!-- Search Navbar -->
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                <!-- Search Navbar Fim-->
-
-            </div>
-            <!-- Conteudo Navbar Fim-->
-
-        </div>
-    </nav>
+    <nav th:replace="~{base :: navbarmain}"></nav>
     <!--Começo da Navbar Fim-->
 
 
@@ -108,7 +44,7 @@
                                 <a class="text-dark" href="#">Equipados</a>
                             </h3>
                         </div>
-
+        
                         <div class="row">
                             <div class="col-12 col-lg-6">
                                 <div class="card">
@@ -117,8 +53,7 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="thumb">
-                                                    <img src="../images/machadoGuerra.png" class=" thumb portrait"
-                                                        alt="...">
+                                                    <img src="../machadoGuerra.png" class=" thumb portrait" alt="...">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
@@ -126,7 +61,7 @@
                                                     additional content.</p>
                                             </div>
                                         </div>
-
+        
                                         <a href="#" class="btn btn-primary">Desequipar</a>
                                     </div>
                                 </div>
@@ -138,8 +73,7 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="thumb">
-                                                    <img src="../images/machadoGuerra.png" class=" thumb portrait"
-                                                        alt="...">
+                                                    <img src="../machadoGuerra.png" class=" thumb portrait" alt="...">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
@@ -147,7 +81,7 @@
                                                     additional content.</p>
                                             </div>
                                         </div>
-
+        
                                         <a href="#" class="btn btn-primary">Desequipar</a>
                                     </div>
                                 </div>
@@ -160,7 +94,7 @@
             <div class="col">
                 <!--Card de Um Tipo de Inventario -->
                 <div id="temp" class="card row g-0">
-
+        
                     <!-- titulo do card -->
                     <div class="card-header col-12 col-lg-4">
                         <strong class="d-inline-block mb-2 text-success">Inventário</strong>
@@ -169,52 +103,67 @@
                         </h3>
                     </div>
                     <!-- titulo do card Fim-->
-
+        
                     <!-- lista de itens-->
                     <div id="max_tamanho" class="card-body col-12 col-lg-8">
-
-                        <!-- Item -->
+        
+                        <!-- Adicionr -->
                         <div class="m-lg-2 border-top-0">
                             <!-- Nome e peso Item -->
                             <div class="btn-group dropdown container-fluid mb-1 rounded">
-                                <a href="#" class="list-group-item list-group-item-action dropdown-toggle"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Nome</h5>
-                                        <small>peso</small>
-                                    </div>
+                                <a href="/formNovoItem" class="list-group-item list-group-item-action ">
+                                    <h5 class="mb-1">Adicionar</h5>
                                 </a>
                                 <!-- Nome e peso Item Fim-->
-
-                                <!-- Item dropdown -->
-                                <ul class=" dropdown-menu dropdown-menu-dark dropdown-menu-macos mx-0 border-0 shadow "
-                                    style="width: 220px;">
-                                    <li><a class="dropdown-item" href="#">Equipar</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Editar</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item 1" href="#">Mosrtrar Detalhes</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Deletar</a></li>
-                                </ul>
-                                <!-- Item dropdown Fim-->
+        
+                            </div>
+                        </div>
+                        <!-- Adicionar Fim-->
+        
+                        <!-- Item -->
+                        <div th:each="item : ${itens}">
+                            <div class="m-lg-2 border-top-0">
+                                <!-- Nome e peso Item -->
+                                <div class="btn-group dropdown container-fluid mb-1 rounded">
+                                    <a href="#" class="list-group-item list-group-item-action dropdown-toggle"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+        
+                                        <h5 th:text="${item.nome}" class="mb-1">Nome</h5>
+                                        <small th:text="${item.peso}">peso</small>
+        
+                                    </a>
+                                    <!-- Nome e peso Item Fim-->
+        
+                                    <!-- Item dropdown -->
+                                    <ul class=" dropdown-menu dropdown-menu-dark dropdown-menu-macos mx-0 border-0 shadow "
+                                        style="width: 220px;">
+                                        <li><a class="dropdown-item" href="#">Equipar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item 1" href="#">Mosrtrar Detalhes</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Deletar</a></li>
+                                    </ul>
+                                    <!-- Item dropdown Fim-->
+                                </div>
                             </div>
                         </div>
                         <!-- Item Fim-->
-                        
-
+        
+        
                     </div>
                     <!-- lista de itens Fim-->
-
+        
                 </div>
                 <!--Card de Um Tipo de Inventario Fim-->
-
+        
             </div>
             <!-- Coluna de inventarios Fim-->
         </div>
