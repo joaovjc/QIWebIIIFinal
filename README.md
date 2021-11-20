@@ -1,5 +1,10 @@
 
-## Primeira Etapa - 05/10/2021
+## O que contem este exemplo 
+_______________________________________________________________________________
+
+temos um site bem basico, com somente o cadastro de itens usando somente Thymeleaf, maria db com jpa com Spring Framework  
+
+## Primeira Etapa 
 _______________________________________________________________________________
 Diagrama Do MVC
 Topicos pequisados(Sobre RPG D&D)
@@ -26,7 +31,7 @@ Dinheiro para um possivel sistema de loja
 
 _________________________________________________________________________________________________
 
-## Segunda Etapa - 07/10/2021
+## Segunda Etapa 
 
 +Adição do fluxograma inicial
 
@@ -35,7 +40,7 @@ ________________________________________________________________________________
 
 _________________________________________________________________________________________________
 
-## Terceira Etapa - 07/10/2021
+## Terceira Etapa 
 
 +Adição do UML inicial
 
@@ -45,7 +50,7 @@ Lembrete: avaliar o sistema de loja padrao
 
 _________________________________________________________________________________________________
 
-## Quarta Etapa - 14/10/2021
+## Quarta Etapa 
 
 Cores do site:
 
@@ -53,11 +58,3 @@ Cores do site:
 
 Provavelmente branco e preto, tendo em vista que, a ideia original eram pixelarts de mesas e afins que relembrassem a época medieval, porem, como isso levaria tempo optei pelo mais basico que ficasse "Limpo";
 
-## Atualização Quarta Etapa - 20/10/2021
-Adicionado algumas paginas do front
-_________________________________________________________________________________________________
-Review 06/10
-Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
-_________________________________________________________________________________________________
-Review 07/10
-Bastante trabalho, acredito que vai ficar muito bom! Estou louca para ver o fluxograma e a UML dele
