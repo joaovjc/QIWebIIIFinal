@@ -4,7 +4,8 @@ _______________________________________________________________________________
 
 temos um site bem basico, com somente o cadastro de itens usando somente Thymeleaf, maria db com jpa com Spring Framework  
 
-## Primeira Etapa 
+## Proximas
+## Primeira Etapas 
 _______________________________________________________________________________
 Diagrama Do MVC
 Topicos pequisados(Sobre RPG D&D)
@@ -31,26 +32,7 @@ Dinheiro para um possivel sistema de loja
 
 _________________________________________________________________________________________________
 
-## Segunda Etapa 
-
-+Adição do fluxograma inicial
-
-![flowchart](https://user-images.githubusercontent.com/74030829/136476074-29552340-a5b1-4a8d-86d6-2d62ee593b38.jpeg)
-
-
-_________________________________________________________________________________________________
-
-## Terceira Etapa 
-
-+Adição do UML inicial
-
-![uml](https://user-images.githubusercontent.com/74030829/136476752-688c2421-491b-45bb-8d9d-9ba9a78503a5.png)
-
-Lembrete: avaliar o sistema de loja padrao
-
-_________________________________________________________________________________________________
-
-## Quarta Etapa 
+## segunda Etapa 
 
 Cores do site:
 
